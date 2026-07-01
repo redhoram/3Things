@@ -1,6 +1,6 @@
 ---
 name: decide
-description: Turn a decision into a transparent, trustworthy recommendation using the 3Things "Options — Pros/Cons — Recommendation" framework. Use this whenever the user is weighing choices or wants help deciding: "should I do A or B," "which option is best," "help me choose between," "evaluate these vendors/tools/offers," "pros and cons of," or reviewing a proposal and deciding whether to go ahead. Trigger even when the user leans toward one option already — the value here is laying out the alternatives, weighing each honestly, and giving a reasoned recommendation others can trust, instead of a gut call.
+description: "Turn a decision into a transparent, trustworthy recommendation using the 3Things \"Options — Pros/Cons — Recommendation\" framework. Use this whenever the user is weighing choices or wants help deciding: \"should I do A or B,\" \"which option is best,\" \"help me choose between,\" \"evaluate these vendors/tools/offers,\" \"pros and cons of,\" or reviewing a proposal and deciding whether to go ahead. Trigger even when the user leans toward one option already — the value here is laying out the alternatives, weighing each honestly, and giving a reasoned recommendation others can trust, instead of a gut call."
 ---
 
 # Decide — Options · Pros/Cons · Recommendation

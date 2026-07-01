@@ -1,6 +1,6 @@
 ---
 name: solve
-description: Analyze a problem in three layers — Problem, Root Cause, and Solution — using the 3Things problem-solving framework. Use this whenever the user is facing something that's going wrong and wants to fix it: "why does X keep happening," "how do we fix Y," "our process is slow / broken / failing," "keep hitting the same issue," "troubleshoot this," or any request to diagnose a recurring problem and design a fix. Trigger even when the user jumps straight to asking for a solution — the value of this skill is forcing a dig into the ROOT CAUSE first, so the fix attacks the disease, not just the symptom.
+description: "Analyze a problem in three layers — Problem, Root Cause, and Solution — using the 3Things problem-solving framework. Use this whenever the user is facing something that's going wrong and wants to fix it: \"why does X keep happening,\" \"how do we fix Y,\" \"our process is slow / broken / failing,\" \"keep hitting the same issue,\" \"troubleshoot this,\" or any request to diagnose a recurring problem and design a fix. Trigger even when the user jumps straight to asking for a solution — the value of this skill is forcing a dig into the ROOT CAUSE first, so the fix attacks the disease, not just the symptom."
 ---
 
 # Solve — Problem · Root Cause · Solution

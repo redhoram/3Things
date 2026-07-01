@@ -1,6 +1,6 @@
 ---
 name: summarize
-description: Condense long, messy, or overwhelming information into ONE core message plus THREE supporting points, using the 3Things "Rule of Three" and "Priority Triangle." Use this whenever the user wants to summarize, shorten, tighten, distill, or "TL;DR" anything — a document, transcript, email thread, report, meeting notes, article, research, or a rambling block of text — or asks for an executive summary, key takeaways, "the gist," or "the main point." Trigger even when the user just pastes a wall of text and says "make this shorter" or "what really matters here?" The job is to FILTER for what's essential, not to chop text at random.
+description: "Condense long, messy, or overwhelming information into ONE core message plus THREE supporting points, using the 3Things \"Rule of Three\" and \"Priority Triangle.\" Use this whenever the user wants to summarize, shorten, tighten, distill, or \"TL;DR\" anything — a document, transcript, email thread, report, meeting notes, article, research, or a rambling block of text — or asks for an executive summary, key takeaways, \"the gist,\" or \"the main point.\" Trigger even when the user just pastes a wall of text and says \"make this shorter\" or \"what really matters here?\" The job is to FILTER for what's essential, not to chop text at random."
 ---
 
 # Summarize — Short (Singkatkan)

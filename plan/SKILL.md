@@ -1,6 +1,6 @@
 ---
 name: plan
-description: Build a plan by working backward from the goal, using the 3Things "Start from the End" framework — Output (goal) → Process (steps) → Input (what's needed). Use this whenever the user wants to plan, map out, or figure out how to reach something: "how do I get to X," "plan for launching/achieving Y," "I want to become/reach Z, where do I start," "roadmap for," "backward plan," or setting a goal and needing the path to it. Trigger even when the user starts from "what's my first step?" — the value is defining the destination FIRST, so every step actually points at the goal instead of just keeping busy.
+description: "Build a plan by working backward from the goal, using the 3Things \"Start from the End\" framework — Output (goal) → Process (steps) → Input (what's needed). Use this whenever the user wants to plan, map out, or figure out how to reach something: \"how do I get to X,\" \"plan for launching/achieving Y,\" \"I want to become/reach Z, where do I start,\" \"roadmap for,\" \"backward plan,\" or setting a goal and needing the path to it. Trigger even when the user starts from \"what's my first step?\" — the value is defining the destination FIRST, so every step actually points at the goal instead of just keeping busy."
 ---
 
 # Plan — Start from the End (Mundur dari Tujuan)
