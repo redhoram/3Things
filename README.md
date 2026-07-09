@@ -29,7 +29,7 @@ Each skill lives in its own folder with its own `SKILL.md`, so they appear as fo
 ### Structure
 
 ```
-3things/
+3Things/
 ├── summarize/SKILL.md
 ├── solve/SKILL.md
 ├── decide/SKILL.md
@@ -102,7 +102,10 @@ A demo of all 4 skills in action. Each one turns a raw, unstructured input into 
 **Input (unstructured):**
 > Our office needs to pick an HR platform (attendance, payroll, leave). Three candidates: Talenta, GreatDay HR, or building a custom system in-house. Budget is tight and IT is only 2 people. Which makes the most sense?
 
-**Options compared:** Talenta, GreatDay HR, in-house custom build.
+**Options compared:**
+- **Talenta** — Pros: tax/BPJS compliance stays auto-updated; lightest load for a 2-person IT team. Cons: subscription cost; less room for custom flows.
+- **GreatDay HR** — Pros: strongest mobile attendance for field teams. Cons: payroll/tax depth thinner than Talenta.
+- **In-house build** — Pros: fully custom; no license fees. Cons: high risk for a 2-person IT team — payroll compliance is complex and always changing.
 
 **Recommendation:** **Talenta** — it adds the least burden to a small IT team, and tax/BPJS compliance stays automatically up to date. GreatDay HR is a strong alternative if mobile attendance for field teams is the top priority. An in-house build carries high risk given payroll compliance complexity and limited IT capacity.
 
@@ -135,7 +138,7 @@ Setiap skill berada di foldernya sendiri dengan `SKILL.md` masing-masing, sehing
 ### Struktur
 
 ```
-3things/
+3Things/
 ├── summarize/SKILL.md
 ├── solve/SKILL.md
 ├── decide/SKILL.md
@@ -208,7 +211,10 @@ Demo 4 skill dalam praktik. Masing-masing mengubah input mentah dan tidak terstr
 **Input (unstructured):**
 > Kantor kami mau pilih platform buat sistem HR (absensi, payroll, cuti). Ada 3 kandidat: Talenta, GreatDay HR, dan bikin sistem custom sendiri pakai developer internal. Budget terbatas dan tim IT cuma 2 orang. Mana yang paling masuk akal?
 
-**Opsi yang dibandingkan:** Talenta, GreatDay HR, sistem custom internal.
+**Opsi yang dibandingkan:**
+- **Talenta** — Pro: kepatuhan pajak/BPJS terjaga otomatis; beban paling ringan untuk tim IT 2 orang. Kontra: biaya langganan; ruang kustomisasi terbatas.
+- **GreatDay HR** — Pro: absensi mobile terkuat untuk tim lapangan. Kontra: kedalaman payroll/pajak di bawah Talenta.
+- **Sistem custom internal** — Pro: fleksibel penuh; tanpa biaya lisensi. Kontra: risiko tinggi untuk tim IT 2 orang — compliance payroll kompleks dan terus berubah.
 
 **Recommendation:** **Talenta** — karena minim beban tambahan untuk tim IT yang kecil dan kepatuhan pajak/BPJS terjaga otomatis. GreatDay HR jadi alternatif kuat kalau prioritas utama absensi mobile untuk tim lapangan. Sistem custom internal berisiko tinggi mengingat kompleksitas compliance payroll dan keterbatasan tim IT.
 

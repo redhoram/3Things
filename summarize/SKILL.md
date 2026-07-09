@@ -7,6 +7,14 @@ description: "Condense long, messy, or overwhelming information into ONE core me
 
 Turn a pile of information into a message that sticks: **one core message, held up by three supporting points, in a logical order.** This is the 3Things "Rule of Three." A summary built this way is short *and* whole — the detail doesn't vanish, it just moves backstage, ready if someone asks.
 
+## Not this skill?
+
+- Something is broken and needs a diagnosis → use /solve
+- Weighing named alternatives ("A or B?") → use /decide
+- A goal needs a path to reach it → use /plan
+
+If the request mixes them (e.g. "summarize this report, then tell me what to fix"), summarize first, then hand the result to the next skill.
+
 ## The core distinction: filter, don't cut
 
 Cutting means shortening at random (like trimming an article mid-sentence because you ran out of room) — the result is short but broken. **Filtering** is the deliberate act of separating what's essential from what merely happens to be there, like panning for gold: throw out the sand, keep the grains that matter. Always filter.
@@ -23,6 +31,8 @@ Work an inverted triangle — wide at the top, narrowing to a point:
 
 ## Required output format
 
+Write the entire output in the user's language — Indonesian input gets an Indonesian summary, including the structure labels. The template below shows English labels only as placeholders.
+
 Always structure the summary like this:
 
 ```
@@ -30,7 +40,8 @@ Always structure the summary like this:
 
 1. [Supporting point — strongest / first in logical order]
 2. [Supporting point]
-3. [Supporting point]
+3. [Supporting point]   ← three is the default, not a quota: two strong
+                           points beat three padded; four is the ceiling
 ```
 
 Ordering rules for the three points: never leave them random. Order by importance (most → least), or chronologically, or problem → solution — whatever gives the reader a clear thread to follow.
@@ -58,6 +69,7 @@ Three-sentence version: "Revenue is up 12%, led by the new product line. Margins
 ## Guardrails
 
 - **Don't force three.** The number three is a guide for filtering, not a quota. If the material honestly has only two strong points, give two — two solid points beat three with one padded in. If it has five, don't list all five; honestly decide which three carry the most weight.
+- **Already short? Don't inflate.** If the input is only a few sentences, return the one-line core message (plus a supporting point or two if they genuinely exist) and stop — never pad a short input to fill the template.
 - **Simplify by organizing, not by gutting.** If a topic is genuinely complex, don't summarize away the substance. Find the "three most important doors" into the complexity as a starting handhold; the detail can follow when asked.
 - **Preserve essential nuance — defer it, don't delete it.** State the clear core first, then layer nuance afterward once the foundation of understanding is built.
 - **Short doesn't mean cold.** A greeting, an acknowledgment of feelings, or a bridge into the point can stay. What you trim is the excess information that buries the message, not the warmth.

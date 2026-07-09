@@ -7,28 +7,35 @@ description: "Turn a decision into a transparent, trustworthy recommendation usi
 
 Structure any decision into three parts: **the choices available (Options), the honest trade-offs of each (Pros/Cons), and a reasoned pick (Recommendation).** This is the 3Things decision frame. Its power isn't only the decision it produces — it's the *trust* it builds. When people see the alternatives and the honest trade-offs, they see your recommendation is considered judgment, not a hunch, and they tend to accept it even if they started out disagreeing.
 
+## Not this skill?
+
+- The cause of a problem is still unknown → use /solve first
+- A goal needs a path, not a choice between alternatives → use /plan
+- Only needs condensing, not choosing → use /summarize
+
+If the request mixes them (e.g. "figure out why this fails, then choose a fix"), diagnose with /solve first, then decide here.
+
 ## The three steps
 
 1. **List the options.** Lay out the real alternatives — ideally around three.
 2. **Weigh pros and cons honestly.** For each option, give its genuine upsides and downsides.
 3. **Recommend.** Pick the one with the greatest benefit and the most acceptable downside — or a sensible middle path — and say *why*.
 
+Two situations to handle before weighing:
+
+- **No options given** ("help me pick a CRM"): propose the strongest real candidates yourself (2–4), label them clearly as your shortlist, then weigh them the same way.
+- **Constraints unknown** (budget, team size, deadline): ask up to three questions — or state the constraints you assumed, above the options.
+
 ## Required output format
+
+Write the entire output in the user's language — Indonesian input gets an Indonesian analysis, including the structure labels (The decision → Keputusan, Option → Opsi, Recommendation → Rekomendasi). The template below shows English labels only as placeholders.
 
 Always present the decision like this:
 
 ```
 **The decision:** [one line stating what's being decided]
 
-**Option 1 — [name]**
-- Pros: [honest upsides]
-- Cons: [honest downsides]
-
-**Option 2 — [name]**
-- Pros: [honest upsides]
-- Cons: [honest downsides]
-
-**Option 3 — [name]**
+**Option [n] — [name]**   ← repeat this block per REAL option (2–4; three is typical)
 - Pros: [honest upsides]
 - Cons: [honest downsides]
 
@@ -57,7 +64,7 @@ The decision becomes clear *and* justified — anyone can see the reasoning and 
 
 ## Guardrails
 
-- **No straw-man options.** Never pad the list with fake choices to make your favorite look better. Sharp people smell it instantly, and the trust you were building collapses.
+- **No straw-man options.** Never pad the list with fake choices to make your favorite look better. Sharp people smell it instantly, and the trust you were building collapses. Two real options beat three with a filler — never invent an option just to complete the pattern.
 - **Be honest both ways.** Admit the downsides of the option you recommend, and the upsides of the ones you reject. That honesty is exactly what makes the recommendation strong — a good decision isn't afraid of the alternatives; it gets stronger for having been tested against them.
 - **Always land the recommendation.** Laying out options without a pick leaves the user where they started. Weigh, then choose, and give the reason. (If the user explicitly wants only the trade-offs and will decide themselves, respect that.)
 - **Around three options is the sweet spot.** One isn't a decision; five or more overwhelms and paralyzes. If there are many alternatives, honestly narrow to the strongest few.

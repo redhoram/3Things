@@ -9,6 +9,18 @@ Structure any problem into three layers: **what's wrong (Problem), why it's real
 
 Treating a symptom without touching the root just makes the problem come back — like taking a fever reducer without treating the infection underneath.
 
+## Not this skill?
+
+- Weighing named alternatives ("A or B?") → use /decide
+- No defect to fix, just a goal to reach → use /plan
+- Only needs condensing, not fixing → use /summarize
+
+If the request mixes them (e.g. "diagnose this, then pick a fix"), run this skill first, then hand the result to the next one.
+
+## Before diagnosing
+
+If the input lacks the facts needed to reach a real root cause, ask up to three targeted questions first. If the user wants an answer immediately, proceed — but flag every inferred cause as (hypothesis), not a finding.
+
 ## The three steps
 
 1. **Define the problem clearly.** State what is actually wrong, plainly and specifically. A vague problem produces a vague fix.
@@ -25,6 +37,8 @@ The true root is *a messy warehouse* — not "sales are down." Stop at the first
 
 ## Required output format
 
+Write the entire output in the user's language — Indonesian input gets an Indonesian analysis, including the structure labels (Problem → Masalah, Root Cause → Akar Masalah, Solution → Solusi). The template below shows English labels only as placeholders.
+
 Always present the analysis in these three labeled layers:
 
 ```
@@ -33,10 +47,13 @@ Always present the analysis in these three labeled layers:
 
 **Root Cause**
 [The real underlying cause, reached by asking "why" down the chain.
- Show the why-chain briefly if it helps make the logic visible.]
+ Show the why-chain briefly if it helps make the logic visible.
+ Mark each link as (fact) — stated by the user — or (hypothesis) —
+ your inference. Never present a hypothesis as a confirmed diagnosis.]
 
 **Solution**
-[The action that targets the root cause — not the symptom.]
+[Actions that target the root cause — not the symptom. If the root is
+ a hypothesis, step 1 is the cheapest way to verify it — then the fix.]
 ```
 
 If several root causes surface, group them (ideally into about three) and let the solution address each.
